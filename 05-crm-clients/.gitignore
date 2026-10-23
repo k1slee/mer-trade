@@ -1,0 +1,7 @@
+/data/*.csv
+/vendor/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
