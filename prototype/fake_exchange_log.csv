@@ -1,0 +1,28 @@
+timestamp,direction,status,rows,message
+2026-10-23T10:00:00,1c->site,success,245,OK
+2026-10-23T10:30:00,1c->site,success,251,OK
+2026-10-23T11:00:00,1c->site,success,248,OK
+2026-10-23T10:30:00,site->1c,success,140,OK
+2026-10-23T11:00:00,site->1c,success,133,OK
+2026-10-23T11:30:00,site->1c,success,152,OK
+2026-10-23T12:00:00,site->1c,success,148,OK
+2026-10-23T12:05:00,site->1c,success,139,OK
+2026-10-23T12:10:00,site->1c,success,155,OK
+2026-10-23T12:15:00,site->1c,success,161,OK
+2026-10-23T12:20:00,site->1c,success,150,OK
+2026-10-23T12:25:00,site->1c,success,144,OK
+2026-10-23T12:30:00,site->1c,success,138,OK
+2026-10-23T11:30:00,1c->marketplaces,success,320,OK
+2026-10-23T11:45:00,1c->marketplaces,success,315,OK
+2026-10-23T12:00:00,1c->marketplaces,success,308,OK
+2026-10-23T12:10:00,1c->marketplaces,error,0,"HTTP 502 from marketplace API"
+2026-10-23T12:15:00,1c->marketplaces,error,0,"HTTP 502 from marketplace API"
+2026-10-23T12:20:00,1c->marketplaces,error,0,"Timeout after 30s"
+2026-10-23T12:25:00,1c->marketplaces,error,0,"HTTP 502 from marketplace API"
+2026-10-23T11:30:00,wms->1c,success,88,OK
+2026-10-23T11:45:00,wms->1c,success,92,OK
+2026-10-23T12:00:00,wms->1c,success,87,OK
+2026-10-23T12:05:00,wms->1c,success,90,OK
+2026-10-23T12:10:00,1c->wms,success,55,OK
+2026-10-23T12:20:00,1c->wms,success,61,OK
+2026-10-23T12:28:00,1c->wms,success,58,OK
