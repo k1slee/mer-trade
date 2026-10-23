@@ -23,6 +23,26 @@ php bin/find-duplicates.php
 php bin/dump-normalized.php
 ```
 
+## Тесты
+
+Запуск:
+
+php phpunit.phar --testdox
+
+Ожидаемый результат:
+
+48 / 48 (100%)
+OK (48 tests, 65 assertions)
+
+Что покрыто:
+
+tests/NormalizerTest.php	УНП, телефон, email, название, схожесть
+tests/DuplicateDetectorTest.php	правила «точно / проверить вручную / не дубль», транзитивность, weak-link
+tests/PickMainClientTest.php	4 уровня приоритета выбора главной карточки
+tests/CsvReaderTest.php	BOM, отсутствующие колонки, дубли ID, битые ссылки
+tests/ReportSnapshotTest.php	побайтовое совпадение с tests/fixtures/report.expected.txt
+
+
 ## Структура
 
 - `src/` — чтение CSV, нормализация, детектор дублей, печать отчёта

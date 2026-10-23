@@ -5,3 +5,9 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# PHPUnit
+**/phpunit.phar
+**/.phpunit.cache/
+**/.phpunit.result.cache
+**/phpunit.xml.bak
